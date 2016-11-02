@@ -1,24 +1,24 @@
-## spec-xunit-file
-Mocha test reporter. Displays 'spec' reporter output to stdout and generates a xunit XML file in background.
+## tap-xunit-file
+Mocha test reporter. Displays 'TAP' reporter output to stdout and generates a xunit XML file in background.
 
-Based upon [xunit-file](https://github.com/peerigon/xunit-file) reporter
+Based upon [spec-xunit-file](https://github.com/cybo42/spec-xunit-file) reporter
 
 
 
 ### How to use
 
-1. Install `spec-xunit-file`
+1. Install `tap-xunit-file`
 ```
-> npm install --save-dev spec-xunit-file
+> npm install --save-dev tap-xunit-file
 ```
 
 2. If using mocha cli with use the `-R` or `--reporter` option
 ```
-> mocha -R spec-xunit-file
+> mocha -R tap-xunit-file
 ```
 or
 ```
-> mocha --reporter spec-xunit-file
+> mocha --reporter tap-xunit-file
 ```
 
 
@@ -38,5 +38,6 @@ Set LOG_XUNIT environment variable, if you want the output in the console and xm
 ```
 
 # Credits
-This reporter is based on [xunit-file](https://github.com/peerigon/xunit-file) which in-turn based on
+This reporter is based on [spec-xunit-file](https://github.com/cybo42/spec-xunit-file) which in-turn based on
+[xunit-file](https://github.com/peerigon/xunit-file) which in-turn based on
 the original [xunit reporter](https://github.com/visionmedia/mocha/blob/master/lib/reporters/xunit.js) from mocha only writing the result in an xml file.
