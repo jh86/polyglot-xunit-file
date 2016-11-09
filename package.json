@@ -1,13 +1,17 @@
 {
-  "name": "tap-xunit-file",
-  "version": "0.0.3",
-  "description": "Mocha reporter which displays TAP output and generates xunit XML file",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "jshint lib/"
-
-  },
+  "name": "polyglot-xunit-file",
+  "version": "0.0.4",
+  "description": "Mocha reporter which displays TAP or Spec output and generates xunit XML file",
+  "keywords": [
+    "file",
+    "mocha",
+    "reporter",
+    "spec",
+    "tap",
+    "xunit"
+  ],
+  "bugs": "https://github.com/jh86/polyglot-xunit-file/issues",
+  "license": "MIT",
   "author": {
     "name": "Joe Cyboski",
     "email": "cybo42@gmail.com",
@@ -18,28 +22,24 @@
       "name": "Joe Cyboski",
       "email": "cybo42@gmail.com",
       "url": "http://cybo42.com"
+    },
+    {
+      "name": "Jon Hermansen",
+      "email": "jon@jh86.org",
+      "url": "https://jh86.org"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jh86/tap-xunit-file"
-  },
-  "bugs": {
-    "url": "https://github.com/jh86/tap-xunit-file/issues"
-  },
-  "license": "MIT",
-  "keywords": [
-    "mocha",
-    "tap",
-    "xunit",
-    "file",
-    "reporter"
-  ],
-  "peerDependencies": {
-    "mocha": ">=1.7.0"
+  "main": "index.js",
+  "repository": "https://github.com/jh86/polyglot-xunit-file.git",
+  "scripts": {
+    "lint": "jshint lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "mocha": ">=1.7.0",
-    "jshint": "^2.5.0"
+    "jshint": "^2.5.0",
+    "mocha": ">=1.7.0"
+  },
+  "peerDependencies": {
+    "mocha": ">=1.7.0"
   }
 }
