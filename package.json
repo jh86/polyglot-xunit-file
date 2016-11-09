@@ -1,6 +1,6 @@
 {
   "name": "polyglot-xunit-file",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Mocha reporter which displays TAP or Spec output and generates xunit XML file",
   "keywords": [
     "file",
