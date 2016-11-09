@@ -1,5 +1,5 @@
-## tap-xunit-file
-Mocha test reporter. Displays 'TAP' reporter output to stdout and generates a xunit XML file in background.
+## polyglot-xunit-file
+Mocha test reporter. Displays 'TAP' or 'Spec' reporter output to stdout and generates a xunit XML file in background.
 
 Based upon [spec-xunit-file](https://github.com/cybo42/spec-xunit-file) reporter
 
@@ -7,18 +7,18 @@ Based upon [spec-xunit-file](https://github.com/cybo42/spec-xunit-file) reporter
 
 ### How to use
 
-1. Install `tap-xunit-file`
+1. Install `polyglot-xunit-file`
 ```
-> npm install --save-dev tap-xunit-file
+> npm install --save-dev polyglot-xunit-file
 ```
 
 2. If using mocha cli with use the `-R` or `--reporter` option
 ```
-> mocha -R tap-xunit-file
+> mocha -R polyglot-xunit-file
 ```
 or
 ```
-> mocha --reporter tap-xunit-file
+> mocha --reporter polyglot-xunit-file
 ```
 
 
