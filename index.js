@@ -1,1 +1,1 @@
-module.exports = require('./lib/tap-xunit-file');
+module.exports = require('./lib/polyglot-xunit-file');
